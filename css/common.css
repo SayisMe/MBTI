@@ -11,21 +11,21 @@ img {
   font-size: 50px;
   font-weight: 800;
   line-height: 1.3;
-  color: #13B491;
+  color: #E591CA;
   text-align: center;
   margin-bottom: 20px;
 }
 .page-subtitle {
   width: 240px;
   height: 50px;
-  border: 5px solid #FFA32D;
+  border: 5px solid #8c3ecb;
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 24px;
   font-weight: 700;
-  color: #FFA32D;
+  color: #8c3ecb;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -46,22 +46,22 @@ img {
   margin-right: auto;
   transition: 0.1s;
 }
-.btn-orange {
-  background-color: #FFA32D;
-  box-shadow: 0 14px 0 #E66000;
+.btn-purple {
+  background-color: #8c3ecb;
+  box-shadow: 0 14px 0 #552a77;
   color:white;
 }
-.btn-orange:active {
-  box-shadow: 0 4px 0 #E66000;
+.btn-purple:active {
+  box-shadow: 0 4px 0 #552a77;
   transform: translateY(10px);
 }
-.btn-green {
-  background-color: #32BFA1;
-  box-shadow: 0 14px 0 #299A82;
+.btn-pink {
+  background-color: #feb7e8;
+  box-shadow: 0 14px 0 #be4097;
   color: #FFFFFF;
 }
-.btn-green:active {
-  box-shadow: 0 4px 0 #299A82;
+.btn-pink:active {
+  box-shadow: 0 4px 0 #be4097;
   transform : translateY(10px);
 }
 .btn-gray {
