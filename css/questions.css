@@ -15,7 +15,7 @@ body {
 .progress .value {
   width: 10%;
   height: 20px;
-  background-color: #FFB103;
+  background-color: #feb7e8;
   border-radius: 10px;
   transition: 0.2s;
 }
@@ -35,7 +35,7 @@ body {
   font-size: 60px;
   font-weight: 900;
   text-align: center;
-  color: #2EC7A6;
+  color: #E591CA;
   margin-bottom: 30px;
 }
 .question-box .question {
