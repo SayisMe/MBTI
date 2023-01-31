@@ -8,6 +8,16 @@ const choice2El = document.querySelector('.choice2')
 
 let currentNumber = 0
 let mbti = ''
+let mbtis = {
+  e : 0,
+  i : 0,
+  s : 0,
+  n : 0,
+  t : 0,
+  f : 0,
+  j : 0,
+  p : 0
+}
 
 function renderQuestion() {
   const question = questions[currentNumber]
@@ -19,11 +29,18 @@ function renderQuestion() {
 }
 function nextQuestion(choiceNumber) {
   if (currentNumber === questions.length - 1) {
+    let ei = mbtis['e'] > mbtis['i'] ? 'e' : 'i'
+    let sn = mbtis['s'] > mbtis['n'] ? 's' : 'n'
+    let tf = mbtis['t'] > mbtis['f'] ? 't' : 'f'
+    let jp = mbtis['j'] > mbtis['p'] ? 'j' : 'p'
+    mbti = ei + sn + tf + jp
     showResultPage()
     return
   }
   const question = questions[currentNumber]
-  mbti = mbti + question.choices[choiceNumber].value;
+  let currentMBTI = question.choices[choiceNumber].value;
+  mbtis[currentMBTI] = mbtis[currentMBTI] + 1
+  // mbti = mbti + question.choices[choiceNumber].value;
   currentNumber = currentNumber + 1
   renderQuestion()
 }
