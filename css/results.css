@@ -4,7 +4,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
 }
-.character {
+.snack {
   width: 100%;
   max-width: 600px;
   margin-left: auto;
@@ -45,6 +45,7 @@ body {
   height: 200px;
   display: flex;
   gap: 10px;
+  margin-bottom: 10px;
 }
 .result .job {
   flex: 1;
