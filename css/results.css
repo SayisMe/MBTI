@@ -1,15 +1,14 @@
 body {
-  background-color: #EAF8FF;
-  background-image: url("../images/result_bg.jpg");
+  /* background-color: #a8ffe3; */
+  /* background-image: url("../images/result_bg.jpg"); */
   background-position: top center;
   background-repeat: no-repeat;
 }
 .snack {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
 }
 .result {
   max-width: 600px;
@@ -19,17 +18,19 @@ body {
 .result .box {
   min-height: 70px;
   background-color: #FFFFFF;
+  border: 6px solid #E591CA;
+  border-radius: 20px;
   margin-bottom: 15px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.7;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -41,26 +42,32 @@ body {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.result .jobs {
-  height: 200px;
+.result .good-or-bad {
+  height: 150px;
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
 }
-.result .job {
+.result .good {
   flex: 1;
-  background-color: #FFFFFF;
-  background-image: url("../images/result_star.png");
+  background-color: #eaf8ff00;
   background-position: center center;
   background-repeat: no-repeat;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1.4;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #FFE603;
+  border: 6px solid #c8ec74;
+  border-radius: 20px;
+}
+.result .bad {
+  flex: 1;
+  background-color: #eaf8ff00;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #3a75b8;
   border-radius: 20px;
 }
 .result .lecture img {

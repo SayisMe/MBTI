@@ -48,6 +48,8 @@ body {
 .question-box .choice {
   border-radius: 120px;
   font-size: 22px;
+  text-align: center;
+  line-height: 1.4;
 }
 @media (max-width: 640px) {
   .progress {

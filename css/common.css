@@ -28,7 +28,8 @@ img {
   color: #8c3ecb;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 .btn {
   max-width: 500px;
@@ -50,6 +51,7 @@ img {
   background-color: #8c3ecb;
   box-shadow: 0 14px 0 #552a77;
   color:white;
+  margin-top: 80px;
 }
 .btn-purple:active {
   box-shadow: 0 4px 0 #552a77;
@@ -70,7 +72,6 @@ img {
   color: #444444;
 }
 .btn-gray:active {
-
   box-shadow: 0 4px 0 #DFE1E2;
   transform : translateY(10px);
 }
