@@ -9,14 +9,70 @@ export const questions = [
   },
   {
     number: '02',
-    question: '친구들과 해외 여행 후 한국에 도착!<br>새벽 비행으로 피곤한데..',
+    question: '친구가 배탈이 났다고 한다.<br>내 반응은?',
     choices: [
-      { text: '마무리까지 완벽해야지!<br>친구에게 아침밥 먹고가자 할까', value: 'e' },
-      { text: '아침은 패스<br>집 가자마자 설친 잠을 자야겠다', value: 'i' }
+      { text: '어떡해.. 배탈 되게 아프고 힘든데.<br>약 있으면 챙겨먹고 쉬어ㅠㅠ', value: 'f' },
+      { text: '뭐 먹었는데?<br>병원부터 얼른 가봐', value: 't' }
     ]
   },
   {
     number: '03',
+    question: '이번에 들어온 신입이 실수해서<br>부장님이 화나셨었어',
+    choices: [
+      { text: '신입은 왜 시키는대로<br>안 했대? 이유가 뭐야', value: 'j' },
+      { text: '신입이면 실수할 수 있지<br>안타깝네', value: 'p' }
+    ]
+  },
+  {
+    number: '04',
+    question: '노래를 들을 때<br>내가 더 중요하게 생각하는 건?',
+    choices: [
+      { text: '가사보단 멜로디!<br>멜로디가 좋으면 일단 재생목록에 저장', value: 's' },
+      { text: '멜로디보단 가사!<br>가사 읽으면서 공감하거나 몰입', value: 'n' }
+    ]
+  },
+  {
+    number: '05',
+    question: '친구들과 카페에서 수다 떨다가<br>저녁 시간이 되었다..',
+    choices: [
+      { text: '일단 나가서 쭉 걸어가면 맛집 많던데<br>걷다가 끌리는 곳 들어가자', value: 'p' },
+      { text: '어디갈지 알아보고<br>정해지면 나가자', value: 'j' }
+    ]
+  },
+  {
+    number: '06',
+    question: '일 년 동안<br>치킨만 먹고 살 수 있어?',
+    choices: [
+      { text: '불가능하지 않을까?<br>이것저것 먹을래', value: 's' },
+      { text: '진짜 하면 상금이 있어?<br>치킨 종류 정도는 다양해?', value: 'n' }
+    ]
+  },
+  {
+    number: '07',
+    question: '친구들과 해외 여행 후 한국에 도착!<br>새벽 비행으로 피곤한데..',
+    choices: [
+      { text: '아침은 패스<br>집 가자마자 설친 잠을 자야겠다', value: 'i' },
+      { text: '마무리까지 완벽해야지!<br>친구에게 아침밥 먹고가자 할까', value: 'e' }
+    ]
+  },
+  {
+    number: '08',
+    question: '친구가 말도 없이<br>약속에 늦었는데..나는?',
+    choices: [
+      { text: '친구가 이유를 대면 마음이 풀리는 타입', value: 't' },
+      { text: '친구가 사과를 하면 마음이 풀리는 타입', value: 'f' }
+    ]
+  },
+  {
+    number: '09',
+    question: '맛있는 음식을 만들기 위해<br>레시피를 확인!',
+    choices: [
+      { text: '손가락 한 마디 높이만큼<br>물 붓고 끓이면 돼', value: 'n' },
+      { text: '~ml, ~스푼..<br>정확하게 해야 맛있지', value: 's' }
+    ]
+  },
+  {
+    number: '10',
     question: '월화수목금 열심히 보냈다..<br>이제 주말이다!',
     choices: [
       { text: '주중에 고생많았으니<br>주말엔 집에 누워서 놀아야지', value: 'i' },
@@ -24,67 +80,28 @@ export const questions = [
     ]
   },
   {
-    number: '04',
-    question: '대규모 프로젝트를 맡게 되어 떨리는 마음에 처음 시작한 건?',
+    number: '11',
+    question: '나 열심히 돈 모은걸로<br>아이패드 샀어!',
     choices: [
-      { text: '큰 프로젝트인 만큼 계획이 중요해!<br>목적과 목표 먼저 정리해봐야지!', value: 'j' },
-      { text: '당장 미팅 잡고<br>팀원이랑 이야기하면 되겠지?', value: 'p' }
+      { text: '와 돈 열심히 모았나보네..<br>축하해!!', value: 'f' },
+      { text: '와 뭘로 샀어?<br>프로? 에어?', value: 't' }
     ]
   },
   {
-    number: '05',
-    question: '첫 입사 날!<br>나의 첫 인사말은?',
+    number: '12',
+    question: '과제나 일을 할 때<br>내가 선호하는 방식은?',
     choices: [
-      { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: 's' },
-      { text: '안녕하세요! 저는 자취하고 있고요,<br>MBTI는 ~~ (빨리 친해져야지 >0<) ', value: 'n' }
+      { text: '어떤 것부터 해야할지를 생각해야<br>틀이 잡히지', value: 'j' },
+      { text: '주제에 대해 자료조사를 먼저해야<br>틀이 잡히지', value: 'p' }
     ]
-  },
-  {
-    number: '06',
-    question: '날씨가 좋아~<br>유난히 일하기 싫은 날엔?',
-    choices: [
-      { text: '날 좋은데 일이라니.<br>그런데 어쩌겠어? 일해야지!', value: 't' },
-      { text: '이럴 때 일할 순 없어!!<br>반차 써버릴 거야!', value: 'f' }
-    ]
-  },
-  {
-    number: '07',
-    question: '상사한테 한 소리 들었다.<br>나는?',
-    choices: [
-      { text: '더 열심히 해서 잘할 수 있다는<br>사람이란 걸 보여주자!', value: '' },
-      { text: '내가 재능이 없나?<br>퇴사각..', value: '' }
-    ]
-  },
-  {
-    number: '08',
-    question: '일을 하는 데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
-    choices: [
-      { text: '시간을 더 끌 순 없지.<br>팀장님한테 당장 물어봐야지!', value: '' },
-      { text: '어떡하지.. 야근하더라도<br>방법을 더 찾아봐야겠다. ', value: '' }
-    ]
-  },
-  {
-    number: '09',
-    question: '좋은 곳에서 이직 제안이 왔다!<br>나의 선택은?',
-    choices: [
-      { text: '인생은 도전이야!<br>좋은 기회라고 생각하고 시작해볼래!', value: '' },
-      { text: '지금 회사도 좋은데..<br>위험 부담을 안고 이직하는 게 맞을까?', value: '' }
-    ]
-  },
-  {
-    number: '10',
-    question: '회사에서 진급 대상이 되었다.<br>나의 마음은?',
-    choices: [
-      { text: '드디어 회사가 날 알아주는구나!<br>더 열심히 해야지!', value: '' },
-      { text: '진급하면 월급도 오르겠지?<br>월급 오르면 ○○ 사야지~ (상상의 나래~)', value: '' }
-    ]
-  },
+  }
 ]
 
 
 export const results = [
   {
     // istj
+    bgColor: '#4e0000',
     title: '나는<br>참깨스틱!',
     snack: '/images/참깨스틱.png',
     results: '원리원칙적, 계획적<br>' +
@@ -103,12 +120,14 @@ export const results = [
       '가끔 공감능력 부족한 거 같다는 소리 들음 (남 이야기에 잘 공감 못함)<br>' +
       '플젝같은거 할 때 이야기 다른곳으로 새는거 싫어함<br>' +
       '시작했으면 목표한 거 끝내야함',
-    jobs: ['프리랜서', '창업가'],
+    goods: ['치토스', '홈런볼'],
+    bads: ['후렌치파이', '바나나킥'],
     lectureImg: '/images/result_lecture1.png',
     lectureUrl: 'https://bit.ly/3Wr0kt6'
   },
   {
     // istp
+    bgColor: '#92278f',
     title: '나는<br>맛동산!',
     snack: '/images/맛동산.png',
     results: '만사가 귀찮음⭐️<br>' +
@@ -128,12 +147,14 @@ export const results = [
       '관종이라 관심 받는건 좋은데 시끄러운건 싫어함<br>' +
       '관찰력 뛰어남, 멀티 안 됨, 호불호 강함<br>' +
       '공감능력 X (티 안내려고 노력은 하는데 그래도 티남)',
-    jobs: ['마케터', '기획자'],
+    goods: ['꼬깔콘', '포스틱'],
+    bads: ['후렌치파이', '바나나킥'],
     lectureImg: '/images/맛동산.png',
     lectureUrl: 'https://bit.ly/3SZl1t9'
   },
   {
     // isfj
+    bgColor: '#ffffff',
     title: '나는<br>카스타드!',
     snack: '/images/카스타드.png',
     results: '원칙주의자<br>' +
@@ -154,12 +175,14 @@ export const results = [
       '성격 온화해서 부탁하면 거의 다 해줌<br>' +
       '계획 세우는 거 좋아하고 메모하고 기억해둠<br>' +
       '사람들한테 나에 대한 어필 잘 안함',
-    jobs: ['디자이너', '예술가'],
+    goods: ['치토스', '홈런볼'],
+    bads: ['다이제', '야채타임'],
     lectureImg: '/images/result_lecture3.png',
     lectureUrl: 'https://bit.ly/3DWlesG'
   },
   {
     // isfp
+    bgColor: '#ffe919',
     title: '나는<br>오징어집!',
     snack: '/images/오징어집.png',
     results: '그냥 귀찮음, 행동 느림<br>' +
@@ -179,12 +202,14 @@ export const results = [
       '사람 만나는거 좋은데 싫음<br>' +
       '분석, 판단은 잘하는데 이러한 판단을 적극적으로 행동에 옮기지는 않음<br>' +
       '미룰 수 있을 때까지 미룸',
-    jobs: ['부동산<br>투자자', '주식<br>투자자'],
+    goods: ['바나나킥', '꼬깔콘'],
+    bads: ['다이제', '야채타임'],
     lectureImg: '/images/result_lecture4.png',
     lectureUrl: 'https://bit.ly/3fvoTo5'
   },
   {
     // intj
+    bgColor: '#df3620',
     title: '나는<br>눈을감자!',
     snack: '/images/눈을감자.png',
     results: '혼자 있는 거 좋아함, 근데 단체활동할 때 주도적인 역할 자주 맡음<br>' +
@@ -204,12 +229,14 @@ export const results = [
       '할땐 함 안할땐 안함, 이성적인데 감성적<br>' +
       '성격 이상하다는 생각 스스로 자주 함<br>' +
       '특이하고 특별한데 남에게 그런 소리 듣는 건 싫음',
-    jobs: ['개발자', '데이터분석가'],
+    goods: ['야채타임', '뿌셔뿌셔'],
+    bads: ['참깨스틱', '포스틱'],
     lectureImg: '/images/result_lecture5.png',
     lectureUrl: 'https://bit.ly/3U0O3Kj'
   },
   {
     // intp
+    bgColor: '#fff5e6',
     title: '나는<br>쿠크다스!',
     snack: '/images/쿠크다스.png',
     results: '자발적 아웃사이더 (혼자 있는게 제일 편하고 행복), 낯가림<br>' +
@@ -228,12 +255,14 @@ export const results = [
       '친해질 사람이랑 안 맞는 사람은 잠깐 이야기해보면 바로 결정가능<br>' +
       '사람 많은 곳, 시끄러운 곳, 시간 약속 안지키는 사람, 멍청한 사람, 무논리 무능력인데 목소리만 큰 사람 진짜 싫어함<br>' +
       '논리적인거 환장하는데 막상 본인은 논리적으로 말이 안나',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['신당동떡볶이', '포스틱'],
+    bads: ['카스타드', '꼬깔콘'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // infj
+    bgColor: '#e00202',
     title: '나는<br>후렌치파이!',
     snack: '/images/후렌치파이.png',
     results: '생각이 너무 많음<br>' +
@@ -253,12 +282,14 @@ export const results = [
       '무슨 말을 하더라도 근거가 없으면 너무 싫음<br>' +
       '어디서 주워들어서 말하는 거 절대 못 믿음<br>' +
       '생각 많고 망상 잦음',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['야채타임', '뿌셔뿌셔'],
+    bads: ['맛동산', '홈런볼'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // infp
+    bgColor: '#204a40',
     title: '나는<br>다이제!',
     snack: '/images/다이제.png',
     results: '잡생각 많음 (망상 잦음)<br>' +
@@ -276,12 +307,14 @@ export const results = [
       '누가 내 일하는 방식에 대해 간섭하면 빡침<br>' +
       '남의 가치관 같은거에 별로 신경 안 쓰고 인정하는 편<br>' +
       '남들한테 뭐라고 잘 안 함. 근데 이건 귀찮아서지',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['바나나킥', '신당동떡볶이'],
+    bads: ['오징어집', '치토스'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // estj
+    bgColor: '#191876',
     title: '나는<br>포스틱!',
     snack: '/images/포스틱.png',
     results: '고집 셈. 현실적, 이성적, 직설적<br>' +
@@ -299,12 +332,14 @@ export const results = [
       '뭐든 확실한 게 좋음 딱딱 떨어지는거<br>' +
       '누가 일 못하는 거 못 보고 차라리 그럴바에 내가 두세배로 일 다 해 놓음<br>' +
       '공감능력 X (누가 힘든 이야기 하면 감정적 공감보다 상황분석 먼저하고<br>누가 잘못했네 머릿속으로 따지고 있음<br>그치만 상처받을까봐 얘기는 안 함 위로 못함<br>',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['쿠크다스', '맛동산'],
+    bads: ['바나나킥', '다이제'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // estp
+    bgColor: '#c1ce3d',
     title: '나는<br>홈런볼!',
     snack: '/images/홈런볼.png',
     results: '외로움 오지게 탐<br>' +
@@ -322,12 +357,14 @@ export const results = [
       '모임에서 어느새 내가 분위기 주도하고 있음<br>' +
       '(정신차리고 보면 내가 다 역할 정해주고 조장하고 있음)<br>' +
       '근거 없는 자신감',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['카스타드', '참깨스틱'],
+    bads: ['바나나킥', '다이제'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // esfj
+    bgColor: '#ffffff',
     title: '나는<br>꼬깔콘!',
     snack: '/images/꼬깔콘.png',
     results: '생각보다 철저함 혼자 계획 세우고 그 계획 틀어지는 거 싫어함<br>' +
@@ -338,12 +375,14 @@ export const results = [
       '친구, 가족 내 주변 인물들 다 챙김<br>' +
       '인간관계 틀어지면 스트레스 받음<br>' +
       '어디 나가면 어색한 거 못참고 먼저 말 검',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['오징어집', '맛동산'],
+    bads: ['야채타임', '후렌치파이'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // esfp
+    bgColor: '#f37222',
     title: '나는<br>치토스!',
     snack: '/images/치토스.png',
     results: '성격 급함 (처리하고 싶은 일은 빨리빨리 해야함<br>' +
@@ -361,12 +400,14 @@ export const results = [
       '사람 너무 좋고 어울리는 거 좋은데 집 밖에 나가기 귀찮음<br>' +
       '어쩔 수 없는 상황 때문에 어디 콕 박혀 사람들과 어울리지 못하는<br>' +
       '자신을 발견하는 것 만큼 나를 속상하게 하는 건 없음',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['카스타드', '참깨스틱'],
+    bads: ['야채타임', '후렌치파이'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // entj
+    bgColor: '#ed3032',
     title: '나는<br>신당동떡볶이!',
     snack: '/images/신당동떡볶이.png',
     results: '시원찮은 애랑 팀플하면 엄청 답답해하고 결국 총대매고 내가 함<br>' +
@@ -386,12 +427,14 @@ export const results = [
       '새로운 사람 만나는 거 좋아하지만 인간과 깊은 관계 맺는건 별로 안 좋아함<br>' +
       '앞일 걱정할 시간에 오만가지 방법 머릿속에서 돌려보고 해결책 찾아감<br>' +
       '현실적, 논리적. 근데 혼자 있을 땐 상상 많이 함',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['다이제', '쿠크다스'],
+    bads: ['맛동산', '홈런볼'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // entp
+    bgColor: '#fbdc02',
     title: '나는<br>뿌셔뿌셔!',
     snack: '/images/뿌셔뿌셔.png',
     results: '혼자서 돌아다니는게 제일 편함<br>' +
@@ -410,12 +453,14 @@ export const results = [
       '정해진 틀에 갇힌 생활 못 함. 반복되는 일 매우 싫어함<br>' +
       '다방면에 적당한 재능, 근데 다 잘하는데 엄청 잘하진 않음<br>' +
       '과정보다 결과가 중요',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['후렌치파이', '눈을감자'],
+    bads: ['참깨스틱', '포스틱'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // enfj
+    bgColor: '#ffd20d',
     title: '나는<br>바나나킥!',
     snack: '/images/바나나킥.png',
     results: '시끄러움<br>' +
@@ -432,12 +477,14 @@ export const results = [
     '센스있고 눈치가 빠름<br>' +
     '계획짜는거 좋아함 조금이라도 벗어나면 짜증남<br>' +
     '남들 눈치봐서 신경쓰고 잘해주려하는데 그만큼 상처도 받음',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['다이제', '오징어집'],
+    bads: ['카스타드', '꼬깔콘'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   },
   {
     // enfp
+    bgColor: '#ffffff',
     title: '나는<br>야채타임!',
     snack: '/images/야채타임.png',
     results: '정신산만함. 생각 많음. 고집 셈<br>' +
@@ -457,7 +504,8 @@ export const results = [
       '새로운 친구 사귀는 거 좋아함. 사람들한테 친절 베푸는것도 짱 재밌음<br>' +
       '감정기복 심함. 감정 얼굴에 다 드러나는 편<br>' +
       '일 크게 만들고 싫증나서 안한거 오조오억개',
-    jobs: ['돈 많은 백수', '유튜버'],
+    goods: ['후렌치파이', '눈을감자'],
+    bads: ['오징어집', '치토스'],
     lectureImg: '/images/result_lecture6.png',
     lectureUrl: 'https://bit.ly/3fzdinR'
   }
