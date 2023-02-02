@@ -25,7 +25,7 @@ function renderQuestion() {
   questionEl.innerHTML = question.question
   choice1El.innerHTML = question.choices[0].text
   choice2El.innerHTML = question.choices[1].text
-  progressValueEl.style.width = (currentNumber + 1) * 10 + '%'
+  progressValueEl.style.width = (currentNumber + 1) * 50 + 'px'
 }
 function nextQuestion(choiceNumber) {
   if (currentNumber === questions.length - 1) {
