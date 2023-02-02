@@ -10,6 +10,7 @@ const snackEl = document.querySelector('.snack')
 const boxEl = document.querySelector('.box')
 const goodEls = document.querySelectorAll('.good')
 const badEls = document.querySelectorAll('.bad')
+const resultEls = document.querySelectorAll('.result-image')
 
 // document.body.style.backgroundColor = result.bgColor
 document.body.querySelector('.bg').style.backgroundColor = result.bgColor
@@ -30,4 +31,7 @@ goodEls.forEach(function (goodEl, index) {
 badEls.forEach(function (badEl, index) {
   badEl.src = '/images/' + result.bads[index].snackName + '.png'
   badEl.style.backgroundColor = result.bads[index].bgValue
+})
+resultEls.forEach(function (resultEl, index) {
+  resultEl.content = result.snack
 })
