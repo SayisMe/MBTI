@@ -120,10 +120,13 @@ export const results = [
       '가끔 공감능력 부족한 거 같다는 소리 들음 (남 이야기에 잘 공감 못함)<br>' +
       '플젝같은거 할 때 이야기 다른곳으로 새는거 싫어함<br>' +
       '시작했으면 목표한 거 끝내야함',
-    goods: ['치토스', '홈런볼'],
-    bads: ['후렌치파이', '바나나킥'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    goods: [
+      {snackName: '치토스', bgValue: '#f37222'},
+      {snackName: '홈런볼', bgValue: '#c1ce3d'}],
+    bads: [
+      {snackName: '후렌치파이', bgValue: '#e00202'},
+      {snackName: '바나나킥', bgValue: '#ffd20d'}
+    ]
   },
   {
     // istp
@@ -147,10 +150,14 @@ export const results = [
       '관종이라 관심 받는건 좋은데 시끄러운건 싫어함<br>' +
       '관찰력 뛰어남, 멀티 안 됨, 호불호 강함<br>' +
       '공감능력 X (티 안내려고 노력은 하는데 그래도 티남)',
-    goods: ['꼬깔콘', '포스틱'],
-    bads: ['후렌치파이', '바나나킥'],
-    lectureImg: '/images/맛동산.png',
-    lectureUrl: 'https://bit.ly/3SZl1t9'
+    goods: [
+      {snackName: '꼬깔콘', bgValue: '#ffffff'},
+      {snackName: '포스틱', bgValue: '#191876'}
+    ],
+    bads: [
+      {snackName: '후렌치파이', bgValue: '#e00202'},
+      {snackName: '바나나킥', bgValue: '#ffd20d'}
+    ]
   },
   {
     // isfj
@@ -175,10 +182,14 @@ export const results = [
       '성격 온화해서 부탁하면 거의 다 해줌<br>' +
       '계획 세우는 거 좋아하고 메모하고 기억해둠<br>' +
       '사람들한테 나에 대한 어필 잘 안함',
-    goods: ['치토스', '홈런볼'],
-    bads: ['다이제', '야채타임'],
-    lectureImg: '/images/result_lecture3.png',
-    lectureUrl: 'https://bit.ly/3DWlesG'
+    goods: [
+      {snackName: '치토스', bgValue: '#f37222'},
+      {snackName: '홈런볼', bgValue: '#c1ce3d'}
+    ],
+    bads: [
+      {snackName: '다이제', bgValue: '#204a40'},
+      {snackName: '야채타임', bgValue: '#ffffff'}
+    ]
   },
   {
     // isfp
@@ -202,10 +213,14 @@ export const results = [
       '사람 만나는거 좋은데 싫음<br>' +
       '분석, 판단은 잘하는데 이러한 판단을 적극적으로 행동에 옮기지는 않음<br>' +
       '미룰 수 있을 때까지 미룸',
-    goods: ['바나나킥', '꼬깔콘'],
-    bads: ['다이제', '야채타임'],
-    lectureImg: '/images/result_lecture4.png',
-    lectureUrl: 'https://bit.ly/3fvoTo5'
+    goods: [
+      {snackName: '바나나킥', bgValue: '#ffd20d'},
+      {snackName: '꼬깔콘', bgValue: '#ffffff'}
+    ],
+    bads: [
+      {snackName: '다이제', bgValue: '#204a40'},
+      {snackName: '야채타임', bgValue: '#ffffff'}
+    ]
   },
   {
     // intj
@@ -229,10 +244,14 @@ export const results = [
       '할땐 함 안할땐 안함, 이성적인데 감성적<br>' +
       '성격 이상하다는 생각 스스로 자주 함<br>' +
       '특이하고 특별한데 남에게 그런 소리 듣는 건 싫음',
-    goods: ['야채타임', '뿌셔뿌셔'],
-    bads: ['참깨스틱', '포스틱'],
-    lectureImg: '/images/result_lecture5.png',
-    lectureUrl: 'https://bit.ly/3U0O3Kj'
+    goods: [
+      {snackName: '야채타임', bgValue: '#ffffff'},
+      {snackName: '뿌셔뿌셔', bgValue: '#fbdc02'}
+    ],
+    bads: [
+      {snackName: '참깨스틱', bgValue: '#4e0000'},
+      {snackName: '포스틱', bgValue: '#191876'}
+    ]
   },
   {
     // intp
@@ -255,10 +274,14 @@ export const results = [
       '친해질 사람이랑 안 맞는 사람은 잠깐 이야기해보면 바로 결정가능<br>' +
       '사람 많은 곳, 시끄러운 곳, 시간 약속 안지키는 사람, 멍청한 사람, 무논리 무능력인데 목소리만 큰 사람 진짜 싫어함<br>' +
       '논리적인거 환장하는데 막상 본인은 논리적으로 말이 안나',
-    goods: ['신당동떡볶이', '포스틱'],
-    bads: ['카스타드', '꼬깔콘'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '신당동떡볶이', bgValue: '#ed3032'},
+      {snackName: '포스틱', bgValue: '#191876'}
+    ],
+    bads: [
+      {snackName: '카스타드', bgValue: '#ffffff'},
+      {snackName: '꼬깔콘', bgValue: '#ffffff'}
+    ]
   },
   {
     // infj
@@ -282,10 +305,14 @@ export const results = [
       '무슨 말을 하더라도 근거가 없으면 너무 싫음<br>' +
       '어디서 주워들어서 말하는 거 절대 못 믿음<br>' +
       '생각 많고 망상 잦음',
-    goods: ['야채타임', '뿌셔뿌셔'],
-    bads: ['맛동산', '홈런볼'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '야채타임', bgValue: '#ffffff'},
+      {snackName: '뿌셔뿌셔', bgValue: '#fbdc02'}
+    ],
+    bads: [
+      {snackName: '맛동산', bgValue: '#92278f'},
+      {snackName: '홈런볼', bgValue: '#c1ce3d'}
+    ]
   },
   {
     // infp
@@ -307,10 +334,14 @@ export const results = [
       '누가 내 일하는 방식에 대해 간섭하면 빡침<br>' +
       '남의 가치관 같은거에 별로 신경 안 쓰고 인정하는 편<br>' +
       '남들한테 뭐라고 잘 안 함. 근데 이건 귀찮아서지',
-    goods: ['바나나킥', '신당동떡볶이'],
-    bads: ['오징어집', '치토스'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '바나나킥', bgValue: '#ffd20d'},
+      {snackName: '신당동떡볶이', bgValue: '#ed3032'}
+    ],
+    bads: [
+      {snackName: '오징어집', bgValue: '#ffe919'},
+      {snackName: '치토스', bgValue: '#f37222'}
+    ]
   },
   {
     // estj
@@ -332,10 +363,14 @@ export const results = [
       '뭐든 확실한 게 좋음 딱딱 떨어지는거<br>' +
       '누가 일 못하는 거 못 보고 차라리 그럴바에 내가 두세배로 일 다 해 놓음<br>' +
       '공감능력 X (누가 힘든 이야기 하면 감정적 공감보다 상황분석 먼저하고<br>누가 잘못했네 머릿속으로 따지고 있음<br>그치만 상처받을까봐 얘기는 안 함 위로 못함<br>',
-    goods: ['쿠크다스', '맛동산'],
-    bads: ['바나나킥', '다이제'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '쿠크다스', bgValue: '#fff5e6'},
+      {snackName:'맛동산', bgValue: '#92278f'}
+    ],
+    bads: [
+      {snackName: '바나나킥', bgValue: '#ffd20d'},
+      {snackName: '다이제', bgValue: '#204a40'}
+    ]
   },
   {
     // estp
@@ -357,10 +392,14 @@ export const results = [
       '모임에서 어느새 내가 분위기 주도하고 있음<br>' +
       '(정신차리고 보면 내가 다 역할 정해주고 조장하고 있음)<br>' +
       '근거 없는 자신감',
-    goods: ['카스타드', '참깨스틱'],
-    bads: ['바나나킥', '다이제'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '카스타드', bgValue: '#ffffff'},
+      {snackName: '참깨스틱', bgValue: '#4e0000'}
+    ],
+    bads: [
+      {snackName: '바나나킥', bgValue: '#ffd20d'},
+      {snackName: '다이제', bgValue: '#204a40'}
+    ]
   },
   {
     // esfj
@@ -375,10 +414,14 @@ export const results = [
       '친구, 가족 내 주변 인물들 다 챙김<br>' +
       '인간관계 틀어지면 스트레스 받음<br>' +
       '어디 나가면 어색한 거 못참고 먼저 말 검',
-    goods: ['오징어집', '맛동산'],
-    bads: ['야채타임', '후렌치파이'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '오징어집', bgValue: '#ffe919'},
+      {snackName: '맛동산', bgValue: '#92278f'}
+    ],
+    bads: [
+      {snackName: '야채타임', bgValue: '#ffffff'},
+      {snackName: '후렌치파이', bgValue: '#e00202'}
+    ]
   },
   {
     // esfp
@@ -400,10 +443,14 @@ export const results = [
       '사람 너무 좋고 어울리는 거 좋은데 집 밖에 나가기 귀찮음<br>' +
       '어쩔 수 없는 상황 때문에 어디 콕 박혀 사람들과 어울리지 못하는<br>' +
       '자신을 발견하는 것 만큼 나를 속상하게 하는 건 없음',
-    goods: ['카스타드', '참깨스틱'],
-    bads: ['야채타임', '후렌치파이'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '카스타드', bgValue: '#ffffff'},
+      {snackName: '참깨스틱', bgValue: '#4e0000'}
+    ],
+    bads: [
+      {snackName: '야채타임', bgValue: '#ffffff'},
+      {snackName: '후렌치파이', bgValue: '#e00202'}
+    ]
   },
   {
     // entj
@@ -427,10 +474,14 @@ export const results = [
       '새로운 사람 만나는 거 좋아하지만 인간과 깊은 관계 맺는건 별로 안 좋아함<br>' +
       '앞일 걱정할 시간에 오만가지 방법 머릿속에서 돌려보고 해결책 찾아감<br>' +
       '현실적, 논리적. 근데 혼자 있을 땐 상상 많이 함',
-    goods: ['다이제', '쿠크다스'],
-    bads: ['맛동산', '홈런볼'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '다이제', bgValue: '#204a40'},
+      {snackName: '쿠크다스', bgValue: '#fff5e6'}
+    ],
+    bads: [
+      {snackName: '맛동산', bgValue: '#92278f'},
+      {snackName: '홈런볼', bgValue: '#c1ce3d'}
+    ]
   },
   {
     // entp
@@ -453,10 +504,14 @@ export const results = [
       '정해진 틀에 갇힌 생활 못 함. 반복되는 일 매우 싫어함<br>' +
       '다방면에 적당한 재능, 근데 다 잘하는데 엄청 잘하진 않음<br>' +
       '과정보다 결과가 중요',
-    goods: ['후렌치파이', '눈을감자'],
-    bads: ['참깨스틱', '포스틱'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '후렌치파이', bgValue: '#e00202'},
+      {snackName: '눈을감자', bgValue: '#df3620'}
+    ],
+    bads: [
+      {snackName: '참깨스틱', bgValue: '#4e0000'},
+      {snackName: '포스틱', bgValue: '#191876'}
+    ]
   },
   {
     // enfj
@@ -477,10 +532,14 @@ export const results = [
     '센스있고 눈치가 빠름<br>' +
     '계획짜는거 좋아함 조금이라도 벗어나면 짜증남<br>' +
     '남들 눈치봐서 신경쓰고 잘해주려하는데 그만큼 상처도 받음',
-    goods: ['다이제', '오징어집'],
-    bads: ['카스타드', '꼬깔콘'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '다이제', bgValue: '#204a40'},
+      {snackName: '오징어집', bgValue: '#ffe919'}
+    ],
+    bads: [
+      {snackName: '카스타드', bgValue: '#ffffff'},
+      {snackName: '꼬깔콘', bgValue: '#ffffff'}
+    ]
   },
   {
     // enfp
@@ -504,10 +563,14 @@ export const results = [
       '새로운 친구 사귀는 거 좋아함. 사람들한테 친절 베푸는것도 짱 재밌음<br>' +
       '감정기복 심함. 감정 얼굴에 다 드러나는 편<br>' +
       '일 크게 만들고 싫증나서 안한거 오조오억개',
-    goods: ['후렌치파이', '눈을감자'],
-    bads: ['오징어집', '치토스'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    goods: [
+      {snackName: '후렌치파이', bgValue: '#e00202'},
+      {snackName: '눈을감자', bgValue: '#df3620'}
+    ],
+    bads: [
+      {snackName: '오징어집', bgValue: '#ffe919'},
+      {snackName: '치토스', bgValue: '#f37222'}
+    ]
   }
 ]
 export const mbtis = {
