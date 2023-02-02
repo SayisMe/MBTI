@@ -82,6 +82,12 @@ img {
   font-size: 26px;
   /* margin-bottom: 30px; */
 }
+.info {
+  text-align: center;
+  font-size: 10px;
+  color: #808080;
+  margin-top: 50px;
+}
 @media (max-width: 640px) {
   body {
     padding-top: 50px;
