@@ -18,6 +18,12 @@ let mbtis = {
   j : 0,
   p : 0
 }
+let progressWidth = 0
+if(window.matchMedia("screen and (max-width: 640px)").matches) {
+  progressWidth = 30
+} else {
+  progressWidth = 50
+}
 
 function renderQuestion() {
   const question = questions[currentNumber]
@@ -25,7 +31,7 @@ function renderQuestion() {
   questionEl.innerHTML = question.question
   choice1El.innerHTML = question.choices[0].text
   choice2El.innerHTML = question.choices[1].text
-  progressValueEl.style.width = (currentNumber + 1) * 50 + 'px'
+  progressValueEl.style.width = (currentNumber + 1) * progressWidth + 'px'
 }
 function nextQuestion(choiceNumber) {
   if (currentNumber === questions.length - 1) {
