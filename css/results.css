@@ -3,12 +3,18 @@ body {
   /* background-image: url("../images/result_bg.jpg"); */
   background-position: top center;
   background-repeat: no-repeat;
+  /* min-width: 640px; */
+}
+.bg {
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 .snack {
   width: 100%;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 .result {
   max-width: 600px;
@@ -56,7 +62,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 6px solid #c8ec74;
+  /* border: 6px solid #c8ec74; */
+  box-shadow: 0 10px 0 #7b7b7b4f;
   border-radius: 20px;
 }
 .result .bad {
@@ -67,7 +74,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 6px solid #3a75b8;
+  /* border: 6px solid #3a75b8; */
+  box-shadow: 0 10px 0 #7b7b7b4f;
   border-radius: 20px;
 }
 .result .lecture img {

@@ -10,13 +10,10 @@ const snackEl = document.querySelector('.snack')
 const boxEl = document.querySelector('.box')
 const goodEls = document.querySelectorAll('.good')
 const badEls = document.querySelectorAll('.bad')
-// const lectureEl = document.querySelector('.lecture')
-// const lectureImgEl = document.querySelector('.lecture img')
 
 // document.body.style.backgroundColor = result.bgColor
 document.body.querySelector('.bg').style.backgroundColor = result.bgColor
 if(result.bgColor !== '#ffffff' && result.bgColor !== '#ffe919') {
-  // document.querySelector('h3').style.color = '#ffffff'
   document.querySelectorAll('h3').forEach(function (h3El) {
     h3El.style.color = '#ffffff'
   })
@@ -27,10 +24,10 @@ snackEl.src = result.snack
   boxEl.innerHTML = result.results
 // })
 goodEls.forEach(function (goodEl, index) {
-  goodEl.src = '/images/' + result.goods[index] + '.png'
+  goodEl.src = '/images/' + result.goods[index].snackName + '.png'
+  goodEl.style.backgroundColor = result.goods[index].bgValue
 })
 badEls.forEach(function (badEl, index) {
-  badEl.src = '/images/' + result.bads[index] + '.png'
+  badEl.src = '/images/' + result.bads[index].snackName + '.png'
+  badEl.style.backgroundColor = result.bads[index].bgValue
 })
-// lectureEl.href = result.lectureUrl
-// lectureImgEl.src = result.lectureImg
