@@ -1,3 +1,4 @@
+html {font-size: 16px;}
 body {
   font-family: "Pretendard Variable", sans-serif;
   word-break: keep-all;
@@ -88,7 +89,7 @@ img {
   color: #808080;
   margin-top: 50px;
 }
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   body {
     padding-top: 50px;
     /* margin-left: 20px; */
@@ -99,5 +100,25 @@ img {
   }
   .btn {
     font-size: 34px;
+    height: 80px;
+    width: 90%;
+  }
+  .result .good-or-bad {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  img {
+    width: 40%;
+  }
+  img .main-logo {
+    padding-left: 20px;
+  }
+  .result .box {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 200;
+  }
+  html {
+    font-size: 12px;
   }
 }
