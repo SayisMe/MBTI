@@ -4,7 +4,7 @@ const mbti = new URLSearchParams(location.search).get('mbti')
 console.log(mbti)
 const result = results[mbtis[mbti]]
 
-const titleEl = document.querySelector('.page-title')
+// const titleEl = document.querySelector('.page-title')
 const snackEl = document.querySelector('.snack')
 // const boxEls = document.querySelectorAll('.box')
 const boxEl = document.querySelector('.box')
@@ -19,7 +19,7 @@ if(result.bgColor !== '#ffffff' && result.bgColor !== '#ffe919') {
     h3El.style.color = '#ffffff'
   })
 }
-titleEl.innerHTML = result.title
+// titleEl.innerHTML = result.title
 snackEl.src = result.snack
 // boxEls.forEach(function (boxEl, index) {
   boxEl.innerHTML = result.results
