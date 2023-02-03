@@ -14,7 +14,9 @@ const resultEls = document.getElementsByName('result-image')
 
 // document.body.style.backgroundColor = result.bgColor
 document.body.querySelector('.bg').style.backgroundColor = result.bgColor
-if(result.bgColor !== '#ffffff' && result.bgColor !== '#ffe919') {
+if(result.bgColor !== '#ffffff' && result.bgColor !== '#ffe919'
+&& result.bgColor !== '#fff5e6' && result.bgColor !== '#fbdc02'
+&& result.bgColor !== '#ffd20d') {
   document.querySelectorAll('h3').forEach(function (h3El) {
     h3El.style.color = '#ffffff'
   })
